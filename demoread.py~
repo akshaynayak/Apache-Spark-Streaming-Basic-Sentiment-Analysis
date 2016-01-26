@@ -1,0 +1,9 @@
+def loadwords(filename):
+    wordlist=[]
+    f=open(filename,'r')
+    wordslist=list
+    for line in f.readlines():
+        wordslist=wordslist.append(line.rstrip('\n'))
+    #words=f.read().splitlines()    
+    print wordslist
+

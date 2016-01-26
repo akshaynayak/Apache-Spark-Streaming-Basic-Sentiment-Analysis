@@ -1,0 +1,10 @@
+OpenJDK 64-Bit Server VM (24.91-b01) for linux-amd64 JRE (1.7.0_91-b02), built on Nov 19 2015 06:08:55 by "buildd" with gcc 4.9.2
+Memory: 4k page, physical 8041872k(6253700k free), swap 8254460k(8254460k free)
+CommandLine flags: -XX:+CMSClassUnloadingEnabled -XX:+CMSScavengeBeforeRemark -XX:+DisableExplicitGC -XX:InitialHeapSize=536870912 -XX:+ManagementServer -XX:MaxHeapSize=536870912 -XX:MaxNewSize=178958336 -XX:MaxTenuringThreshold=6 -XX:NewSize=178958336 -XX:OldPLABSize=16 -XX:OldSize=357912576 -XX:+PrintGC -XX:+PrintGCDateStamps -XX:+PrintGCDetails -XX:+PrintGCTimeStamps -XX:+UseCompressedOops -XX:+UseConcMarkSweepGC -XX:+UseParNewGC 
+Heap
+ par new generation   total 157248K, used 36364K [0x00000000d5a00000, 0x00000000e04a0000, 0x00000000e04a0000)
+  eden space 139776K,  26% used [0x00000000d5a00000, 0x00000000d7d83198, 0x00000000de280000)
+  from space 17472K,   0% used [0x00000000de280000, 0x00000000de280000, 0x00000000df390000)
+  to   space 17472K,   0% used [0x00000000df390000, 0x00000000df390000, 0x00000000e04a0000)
+ concurrent mark-sweep generation total 349568K, used 0K [0x00000000e04a0000, 0x00000000f5a00000, 0x00000000f5a00000)
+ concurrent-mark-sweep perm gen total 21248K, used 9473K [0x00000000f5a00000, 0x00000000f6ec0000, 0x0000000100000000)
